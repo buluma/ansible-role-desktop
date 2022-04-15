@@ -4,7 +4,7 @@ Install one of the many desktop environments.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-desktop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-desktop/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-desktop/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-desktop)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/desktop)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/desktop)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-desktop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-desktop/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-desktop/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-desktop)|[![quality](https://img.shields.io/ansible/quality/58800)](https://galaxy.ansible.com/buluma/desktop)|[![downloads](https://img.shields.io/ansible/role/d/58800)](https://galaxy.ansible.com/buluma/desktop)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-desktop.svg)](https://github.com/buluma/ansible-role-desktop/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -18,7 +18,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
 
   roles:
     - role: buluma.desktop
-      desktop: mate
+      desktop: gnome
 ```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
