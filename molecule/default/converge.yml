@@ -6,4 +6,4 @@
 
   roles:
     - role: ansible-role-desktop
-      desktop: mate
+      desktop: gnome
