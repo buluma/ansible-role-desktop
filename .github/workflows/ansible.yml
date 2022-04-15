@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: molecule
         uses: robertdebock/molecule-action@2.0.0
         with:
@@ -48,7 +48,7 @@ jobs:
             tag: "xenial"
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: "${{ github.repository }}"
       - name: disable apparmor for mysql
