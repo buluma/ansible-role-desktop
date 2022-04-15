@@ -28,6 +28,8 @@ molecule:
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
         tag: "focal"
+      - image: "docker-rockylinux8-ansible"
+        tag: "latest"
 
 testing:
   script:
