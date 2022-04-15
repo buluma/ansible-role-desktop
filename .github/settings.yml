@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install one of the many desktop environments.
+  homepage: https://buluma.github.io/
+  topics: desktop, centos, redhat, ansible, molecule, tox, playbook, hacktoberfest
