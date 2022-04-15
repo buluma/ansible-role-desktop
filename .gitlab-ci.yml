@@ -16,8 +16,6 @@ molecule:
     matrix:
       - image: "enterpriselinux"
         tag: "7"
-      - image: "enterpriselinux"
-        tag: "latest"
       - image: "fedora-systemd"
         tag: "34"
       - image: "fedora-systemd"
@@ -27,9 +25,7 @@ molecule:
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
-        tag: "focal"
-      - image: "docker-rockylinux8-ansible"
-        tag: "latest"
+        tag: "focal""
 
 testing:
   script:
